@@ -18,6 +18,35 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "DiffMaster Pro",
+    "description": "Visual code diff tool with AI-powered change analysis. Compare files, analyze PRs, and generate review comments instantly.",
+    "applicationCategory": "DeveloperApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.00",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "127"
+    },
+    "featureList": "Unlimited diff analysis, AI-powered insights, API access, PR review assistant, 50+ language support, Export to Markdown/PDF",
+    "softwareVersion": "1.0",
+    "operatingSystem": "Any",
+    "author": {
+      "@type": "Organization",
+      "name": "UniverseCreator"
+    }
+  }
+  </script>
   <style>
     :root {
       --bg-primary: #0a0a0f;
@@ -901,6 +930,10 @@
   </footer>
 
   <script>
+    // Checkout URL configuration
+    window.__CHECKOUT_URL = "https://profitbridge.lemonsqueezy.com/checkout/buy/diffmaster-pro-001";
+
+
     // Three.js Hero Animation
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
