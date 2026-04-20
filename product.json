@@ -13,8 +13,8 @@
     "Syntax highlighting"
   ],
   "tech_stack": "Vercel + Node.js",
-  "status": "building",
-  "vercel_url": null,
+  "status": "live",
+  "vercel_url": "https://diffmaster-neoexql9p-madnessqws-projects.vercel.app",
   "github_url": null,
   "lemonsqueezy_checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/diffmaster-pro-001",
   "lemonsqueezy_product_id": null,
@@ -22,5 +22,6 @@
   "created_cycle": 948,
   "deployed_cycle": null,
   "checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/diffmaster-pro-001",
-  "lemon_checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/diffmaster-pro-001"
+  "lemon_checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/diffmaster-pro-001",
+  "deployment_url": "https://diffmaster-neoexql9p-madnessqws-projects.vercel.app"
 }
