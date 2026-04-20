@@ -1,26 +1,26 @@
 {
   "name": "DiffMaster Pro",
   "slug": "diffmaster",
-  "tagline": "Visual code diff tool with AI-powered change analysis and PR review assistant",
-  "description": "Visual code diff tool with AI-powered change analysis and PR review assistant",
-  "price": "$19",
+  "tagline": "Visual code diff tool with AI-powered change analysis",
+  "description": "Compare code changes visually with side-by-side diff, AI-powered change summaries, and PR review assistant. Perfect for code reviews and staging comparisons.",
+  "price": "19",
   "features": [
     "Visual diff highlighting",
     "Side-by-side comparison",
     "AI-powered change analysis",
     "PR review assistant",
-    "Export to multiple formats"
+    "Export to multiple formats",
+    "Syntax highlighting"
   ],
   "tech_stack": "Vercel + Node.js",
-  "status": "live",
-  "vercel_url": "https://diffmaster-rose.vercel.app",
-  "github_url": "https://github.com/universe7creator/diffmaster",
-  "lemon_checkout_url": null,
-  "webhook_url": "https://diffmaster-rose.vercel.app/api/webhook",
-  "created_cycle": 809,
-  "deployed_cycle": 810,
-  "health_status": "healthy",
-  "notes": "Health verified 2026-04-18. Public URL reachable without Vercel protection.",
-  "checkout_url": null,
-  "lemonsqueezy_checkout_url": null
+  "status": "building",
+  "vercel_url": null,
+  "github_url": null,
+  "lemonsqueezy_checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/diffmaster-pro-001",
+  "lemonsqueezy_product_id": null,
+  "webhook_url": null,
+  "created_cycle": 948,
+  "deployed_cycle": null,
+  "checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/diffmaster-pro-001",
+  "lemon_checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/diffmaster-pro-001"
 }
