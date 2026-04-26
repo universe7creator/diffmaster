@@ -1,14 +1,12 @@
 {
   "name": "diffmaster",
   "version": "1.0.0",
+  "type": "module",
   "description": "Visual code diff tool with AI-powered change analysis and PR review assistant",
   "main": "api/process.js",
   "scripts": {
     "dev": "node dev-server.js",
     "vercel-build": "echo 'Build complete'"
   },
-  "dependencies": {},
-  "engines": {
-    "node": ">=18.0.0"
-  }
+  "dependencies": {}
 }

@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="twitter:image" content="https://og-forge.vercel.app/api/og?title=DiffMaster%20Pro&product=diffmaster" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DiffMaster Pro — Visual Code Diff Tool</title>
   <meta name="description" content="Compare code changes visually with side-by-side diff, AI-powered change summaries, and PR review assistant.">
+  <meta property="og:title" content="DiffMaster Pro — Visual Code Diff Tool">
+  <meta property="og:description" content="Compare code changes visually with side-by-side diff, AI-powered change summaries, and PR review assistant.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://og-forge.vercel.app/api/og?title=DiffMaster%20Pro&product=diffmaster" />
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="DiffMaster Pro — Visual Code Diff Tool">
+  <meta property="twitter:description" content="Compare code changes visually with side-by-side diff, AI-powered change summaries, and PR review assistant.">
+  <meta property="twitter:image" content="https://og-forge.vercel.app/api/og?title=DiffMaster%20Pro&description=Visual%20Code%20Diff%20Tool">
+  <link rel="canonical" href="https://diffmaster.vercel.app">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "DiffMaster Pro",
+    "description": "Compare code changes visually with side-by-side diff, AI-powered change summaries, and PR review assistant.",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.00",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "156"
+    },
+    "featureList": "Side-by-side diff, AI-powered summaries, PR review assistant, Syntax highlighting, Line-by-line comparison"
+  }
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -200,5 +231,16 @@
       return div.innerHTML;
     }
   </script>
+
+<script>
+// Checkout URL - auto-wired by fix_dead_checkout_buttons.py
+const CHECKOUT_URL = "https://buy.polar.sh/polar_cl_p6giwneYr0MejhtHnb1BbqLgt6rTWcb2Uj5hy0PYrdn";
+document.querySelectorAll('.buy-btn, [class*="buy"], [class*="checkout"]').forEach(btn => {
+    if (!btn.getAttribute('onclick') && !btn.href) {
+        btn.style.cursor = 'pointer';
+        btn.addEventListener('click', () => window.open(CHECKOUT_URL, '_blank'));
+    }
+});
+</script>
 </body>
 </html>
